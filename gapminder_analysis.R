@@ -20,6 +20,6 @@ africa_2007 <- gapminder[lifeExpectancies2007, c("country", "lifeExp") ]
 
 o <- order(africa_2007$lifeExp)
 
-africa_2007[o, ]
+# africa_2007[o, ]
 
-ggplot(data = gapminder, aes(x = gdpPercap, y = lifeExp, by = country, color = continent)) + geom_point(aes(size = pop))
+# ggplot(data = gapminder, aes(x = gdpPercap, y = lifeExp, by = country, color = continent)) + geom_point(aes(size = pop))
