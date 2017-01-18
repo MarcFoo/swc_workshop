@@ -1,6 +1,7 @@
 # Notes from Software Carpentry Workshop
 # Date: Januray 17-18, 2017
 # Author: Marcus Foo
+# Purpose:This file runs an analysis on gapminder data
 
 # Load necessary packages
 library(ggplot2)
